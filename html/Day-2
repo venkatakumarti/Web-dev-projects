@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <!--   today is all about text formatting and llists and tables -->
+    <head>
+        <title>
+            About me 
+
+        </title>
+    </head>
+    <body>
+        <p>
+         my name is <b>  venkat akumarthi </b> . I am  a  final yeart  student <strong> computer science  engineering </strong> student at <u>
+           <u> Prgatai engineering college </u>. iam passionate about <mark> web dto become a skilled <em> software development engineer a</em>
+         </u>I believe in the formula 
+  <b>E = mc<sub>2</sub></b> — effort multiplied by 
+  consistency squared 💪
+         </p>
+         <h3>Hobbies</h3>
+<ol type="A">
+  <li>Coding</li>
+  <li>Reading</li>
+  <li>Cricket</li>
+</ol><dl>
+  <dt style="display:inline; font-weight:bold;">Email:</dt>
+  <dd style="display:inline; margin-left:5px;">venkat@example.com</dd><br>
+
+  <dt style="display:inline; font-weight:bold;">Phone:</dt>
+  <dd style="display:inline; margin-left:5px;">+91 9876543210</dd>
+</dl>
+<table border="3">
+  <tr>
+    <th>Degree</th>
+    <th>College</th>
+    <th>Year</th>
+  </tr>
+
+  <tr>
+    <td>B.Tech (CSE)</td>
+    <td>Pragati Engineering College</td>
+    <td>2022–20</td>
+  </tr>
+</table>
+<caption>My Education</caption><br>
+
+
+
+    </body>
+</html>evelopmen </mark> and aspirre 
