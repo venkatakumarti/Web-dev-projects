@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            day 3 practise 
+        </title>
+    </head>
+    <body>
+        <!-- we can use the lik to opwnnew page by providing a lik in the href s[ace -->
+        <a href="https://chatgpt.com/c/68ebb990-5590-8324-b864-9c23b2ac997f" target="_blank"> link click</a>
+        <!-- we can also use the same href for going to a file written in html by providing the file name in the href sapce with the file name -->
+         <a href="D:\college/syllabus.pdf"target="_blank"> download resuem </a>
+         <!-- this is used for the upoad of files which are of same html types , which means we can share another files of html 
+          in a link itsel in the-->
+        <a href="Day-2.html"target="blank"> link click for the day 2 page </a>
+        <!-- the below nav tag is used to navigate among the page like home , cart  and orders in e commerce website useeful 
+          for  the user  to navaigate aroung the website and the | this line is used to seperate the links seperate them visually -->
+        <nav>
+  <a href="day1.html">Day 1</a> |
+  <a href="day2.html">Day 2</a> |
+  <a href="day3.html">Day 3</a>
+</nav>
+<!--   ********
+
+
+            pictures or images
+            
+            **************   -->
+
+
+            <img src="https://scontent.fmaa11-1.fna.fbcdn.net/v/t39.30808-6/481275364_655354926955408_8983581196518808108_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=D7BrtABjuyMQ7kNvwGD-48J&_nc_oc=AdkzqxL3rNa_dPE7fLUbQU9aRo8bf_QBVoG2t_0Ahtk7VNK7pZKY5YrMbUoF2d-VUIu-dG3GrV5BkoHBFmJ_V2lH&_nc_zt=23&_nc_ht=scontent.fmaa11-1.fna&_nc_gid=OJe0RrXqPoJ5il9rNs2JQg&oh=00_AfduShDlIGDGyKO87G3o_d0zhQM_fT-cFjxyjtZoPF_iog&oe=68F43A01" title="this is venkat " width="200" height="200"alt="shows text when picture is not loaded "> <br>
+                <p><b> click the below pic to go to the link </b></p>
+            
+    <!--   ********
+
+
+            using image as button to link , in the place of text we useimage on the page to click and open the link
+            
+            **************   -->
+             <a href="https://chatgpt.com/c/68ebb990-5590-8324-b864-9c23b2ac997f" target="_blank"> <img src="https://scontent.fmaa11-1.fna.fbcdn.net/v/t39.30808-6/481275364_655354926955408_8983581196518808108_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=D7BrtABjuyMQ7kNvwGD-48J&_nc_oc=AdkzqxL3rNa_dPE7fLUbQU9aRo8bf_QBVoG2t_0Ahtk7VNK7pZKY5YrMbUoF2d-VUIu-dG3GrV5BkoHBFmJ_V2lH&_nc_zt=23&_nc_ht=scontent.fmaa11-1.fna&_nc_gid=OJe0RrXqPoJ5il9rNs2JQg&oh=00_AfduShDlIGDGyKO87G3o_d0zhQM_fT-cFjxyjtZoPF_iog&oe=68F43A01" title="this is venkat " width="200" height="200"alt="shows text when picture is not loaded "> 
+                
+            </a>
+
+            <!--   ********
+
+
+            using local  pictures or images
+            
+            **************   -->
+            <br>
+            <!--   ********
+
+
+            alignments and placements 
+            
+            **************   -->
+            <p><b> style="float:right; margin:10px; </b></p>
+            <img src="D:\bobby_pic.jpg"  width="200" height="200" alt=" pic in the local computer "style="float:right; margin:100px;" title="style css right">
+            <br>
+            <p><b> with align keyword   not for modern html using align </b></p>
+            <img src="D:\bobby_pic.jpg"  width="200" height="200" alt=" pic in the local computer " align="top" title="local pic">
+            
+            <!--   ********
+
+            Center an Image (Horizontally)
+            
+            
+            **************   -->
+            <br>
+             <img src="D:\bobby_pic.jpg"  alt="profile"  style="display:block; margin:auto; width:200px;" title="centeing an  image ">
+            
+                    
+            <!--   ********
+
+            for audios 
+            
+            
+            **************   -->
+            <br>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                your browser is not supporting the  audio
+            </audio>
+            <!--   ********
+
+            for videos tag 
+            
+            
+            **************   -->
+            <br>
+               <!--   ********
+
+            for  loocal  videos tag 
+            
+            
+            **************   -->
+            <video width="200" height="200" controls>
+                <source src="D:\videos-example/example.mp4" type="video/mp4" >
+                your browser doesnt support this type video tag
+            </video>
+               <!--   ********
+
+            for  online videos tag 
+            
+            
+            **************   --> 
+            <video controls>
+                <source src="https://sample-videos.com/video123/mp4/480/asdasdas.mp4" type="video/mp4">
+
+            </video>
+            <br>
+               <!--   ********
+
+            for  i frame , it i slike setting a minin webpage insidea a webpage  
+            
+            
+            **************   -->
+            <iframe src="https://www.audiolibrary.com.co/extenz/what-if-you-fly" height="900" width="900"></iframe>
+
+                <!--   ********
+
+            for  i frame , for embedding another html page
+            
+            **************   -->
+            <br>
+             <iframe src="Day-2.html" height="900" width="900"></iframe>
+             <br>
+             <iframe width="800" height="505" src="https://www.youtube.com/embed/4epRjXTMdzM?si=77mW32amVZXusxNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </body> <!--   ********
+    using       ########################  <q> ##################
+
+            for  inline qoutes , they will 
+            make them qouted instead of making
+             them manulally , which helps in css , if they are dealing qoutes in the webpage
+            
+            **************   -->
+            <br>
+            <p> this sntence has a <q> qoute</q></q></p>
+             <!--   ********
+
+             📝 2️⃣ <blockquote> — Long Quote
+🔹 What it does:
+
+Used for longer quotations, usually displayed as a block with indentation.
+
+🔹 Syntax:
+<blockquote>
+HTML is the structure of the web. It defines content and elements on a page.
+</blockquote>
+           
+            **************   -->
+            <br>
+            <p> this block has blockqoute which is <blockquote>
+HTML is the structure of the web. It defines content and elements on a page.
+</blockquote>
+            </p>
+            <br>
+            <!--   ********
+
+            3️⃣ <cite> — Citation
+🔹 What it does:
+
+Used to cite the source of a quote, book, or work.
+Typically displayed in italics.
+
+🔹 Syntax:
+         
+            **************   -->
+            <p> <q> pen is mightier than sword </q><cite>- venkatakumarthi</cite></p>
+                    <!--   ********
+
+            <abbr> — Abbreviation
+🔹 What it does:
+
+Defines an abbreviation or acronym and shows the full meaning when hovered.
+
+🔹 Syntax:
+         
+            **************   -->
+            <p> <abbr title="venkat akumarti"> VA</abbr> , this is to show the abbr </p>
+             <!--   ********
+
+            <address> this tag is used to display address, which visually can also done by <p> tag , but using <address> tag help to identify the text as an address more efficiently for the seo alsoo called called search engines 
+            **************   --> 
+            <address>
+                venkat akumarti<br>
+                vemulapalli<br>
+                dwarapudi<br>
+            </address>
+
+</html>
