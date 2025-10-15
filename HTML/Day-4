@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-4-of-html</title>
+</head>
+<body>
+    venkatakumarthi
+    <!--
+         forms 
+
+          attributes :
+          there are several attributes in forms there are 
+          1.action : is used to submit the form in the desire page or  folder that is psecified 
+          2.method: a.get : whicch is used to searches , this makes the contents visisble
+                    b post: it makes the contents invisible 
+        3.name : usually for naming the script , which is laterused in java script
+        4.autocomplete :autocomplete is used to fill the values of the forms which were previously entered in the forms 
+                        we just initialize the autocomplete with either off or on 
+        5 . target : just like normal links and images 
+        6. novalidate : 
+
+
+        ✅ Summary Table – Key Form Attributes
+Attribute	Purpose	Example
+action	URL to send data	<form action="submit.html">
+method	GET/POST request	<form method="post">
+target	Where to open response	<form target="_blank">
+name	Name of the form	<form name="regForm">
+autocomplete	Enable/disable autofill	<form autocomplete="off">
+novalidate	Disable HTML validation	<form novalidate>
+enctype	Encoding type (files)	<form enctype="multipart/form-data">
+accept-charset	Character encoding	<form accept-charset="UTF-8">
+
+    -->
+
+<form>
+    
+    <label for="name"> name  </label>
+    <input type="text" id="name"required name="name" placeholder="enter your name ">
+    <label for="favcolor">Favorite Color:</label>
+<input type="color" id="favcolor" name="favcolor">
+ <label for="password"> password  </label>
+    <input type="password" id="password"required name="password" placeholder="enter your password ">
+   
+<!-- 
+    @@@@@@@@@  buttons @@@@@@@@@
+    
+    here the type changes , like radio, checkbox,dropdown,
+     for the radiio buttons the group of radio buttons should have the same name 
+    -->
+     <br>
+     <br><hr>
+     hjdfkhdfjhgkhkfdhs
+     <div class="personal-info">
+    <h3>Personal Information</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="fullname"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <p>Note: <span style="color:green;">All fields are mandatory</span></p>
+         <label for="fileUpload">Choose a file:</label>
+  <input type="file" id="fileUpload" name="myFile">
+  </div><br>
+  <hr>
+     <br>
+     <fieldset>
+        <legend>genderchcecking</legend>
+     <label> gender</label>
+     <br>
+     <br>
+     <lable for="male">male</lable>
+     <input type="radio" id="male" name="gender" value="male"><br><br>
+     
+     <label for="female">female</label>
+
+     <input type="radio" id="female" name="gender">
+     
+</fieldset>
+ <fieldset>
+        <legend>language checking </legend>
+     <label> language </label>
+     <br>
+     <br>
+     <lable for="telugu">telugu</lable>
+     <input type="checkbox" id="telugu" name="language" value="male"><br><br>
+     
+     <label for="english">english</label>
+
+     <input type="checkbox" id="english" name="language">
+     
+</fieldset>
+ <fieldset>
+        <legend>for dropdown </legend>
+     <label> skills</label>
+     <br>
+     <br>
+     <lable for="skill">select skill</lable>
+     <select id="skill" name="skill">
+        <option >html</option>
+        <option >css</option>
+        <option >js</option>
+        <option >python</option>
+     </select>
+     
+     
+</fieldset>
+
+<!-- 
+ for multiline text area -->
+ <fieldset >
+    <legend>for multiline text area</legend>
+    <label for="message">message</label><br>
+    <textarea id="message" rows="5" cols="30" placeholder="enter your message" name="message"></textarea>
+ </fieldset>
+
+ <!-- 
+ for buttons -->
+ <input type="submit" value="submit chey">
+ <input type="reset" value="reset cheyyamantava">
+
+ <br>
+ <br>
+ <br>
+ <button type="submit">submit kottara</button>
+ <button type="reset"> reset chey bey</button>
+ <!-- there is type called button 
+   wehre initialting the type with bbutton makes the buttotn triggered by js  -->
+
+
+</form>
+<!-- 
+@@@@@@@@@@@@@2 next is divisions, which is used to group thing in html and used in css lik layouts etc -->
+
+ 
+
+
+    
+</body>
+</html>
